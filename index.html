@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A. Kondratiuk</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Портретний фотограф Львів/Тернопіль">
+</head>
+<body>
+<script src="script.js" defer></script>
+<script src="popup.js" defer></script>
+<header>
+    <div class="header_line">
+        <div class="container">
+            <div class="header_line-wrapper">
+                <h1 class="header_title" >Анастасія Кондратюк</h1>
+                <nav class="header_nav">
+                    <a class="nav-list" href="#" >Головна</a>
+                    <a class="nav-list" href="#" >Портфоліо</a>
+                    <a class="nav-list" href="#" >Послуги та ціни </a>
+                </nav>
+
+                <div id="btn_wrapper" class="btn_wrapper">
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="menu">
+                        <nav>
+                            <ul class="menu-list">
+                                <li><a class="menu-link" href="#news">Головна</a></li>
+                                <li><a class="menu-link open-popup" href="#">Портфоліо</a></li>
+                                <li><a class="menu-link" href="#about">Послуги та ціни </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="intro"  style="background-image: url('img/intro.png')">
+        <div class="container">
+            <h2 class="intro_text one">There is something at work in my soul, which i <br/>do not understand.</h2>
+            <h2 class="intro_text two" >But you do not always need to understand, <br/>sometimes you needed to feel.</h2>
+        </div>
+    </div>
+</header >
+<main>
+
+    <section class="about">
+        <div class="container">
+            <div class="about_wrapper">
+                <img class="about_img" src="./img/02.png">
+
+                <div class="about_content">
+                    <div class="about_info">
+                        <h3 class="about_title">Фотограф Львів | Тернопіль</h3>
+                         <p class="about_text">Світ змінюється, щохвилини з'являються нові варіанти розвитку тих чи інших подій, а моя фотографія, це маленька схоплена та надійно збережена мить в історії. В історії тієї чи іншої людини, в історії світу, в моїй історії.</p>
+                    </div>
+                    <p class="about_subtitle"> <span>Фотографія це про можливості.</span> <span>Фотографія це про миті.</span> <span>Фотографія це про життя.</span></p>
+                    <h3 class="about_name">-Кондратюк А.</h3>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="prise-list_wrapper">
+                <div class="prise-list_block">
+                    <div class="prise-list_title">
+                        Портретна
+                    </div>
+                    <div class="prise-list_text">
+                       <div class="prise-list_subtitle">
+                           1500 грн<br/>
+                           1 год<br/>
+                           80 фото в кольорокорекції та мінімальній ретуші<br/>
+                           15 фото одразу на наступний день після зйомки<br/>
+                       </div>
+
+                        <div class="prise-list_foot">
+                            за окрему доплату надсилаю оригінали
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prise-list_block">
+                    <div class="prise-list_title">
+                        Сімейна/<br/>
+                        парна
+                    </div>
+                    <div class="prise-list_text">
+                        <div class="prise-list_subtitle">
+                            2000 грн<br/>
+                            1-1,5 год<br/>
+                            100 фото в кольорокорекції та мінімальній ретуші<br/>
+                            15 фото одразу на наступний день після зйомки<br/>
+                        </div>
+
+                        <div class="prise-list_foot">
+                            за окрему доплату надсилаю оригінали
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prise-list_block">
+                    <div class="prise-list_title">
+                        Розпис/<br/>
+                        вінчання
+                    </div>
+                    <div class="prise-list_text">
+                        <div class="prise-list_subtitle">
+                            3000-4000 грн<br/>
+                            3 год<br/>
+                            300 фото в кольорокорекції та мінімальній ретуші<br/>
+                            15 фото одразу на наступний день після зйомки<br/>
+                        </div>
+
+                        <div class="prise-list_foot">
+                            Якщо ціле весілля то вартість обгоровюємо окремо
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="login">
+        <button class="btn_login open-popup">
+            Записатися
+        </button>
+
+        <div id="popup__bg"  class="popup__bg">
+            <form class="popup">
+                <img src="img/close.png" class="close-popup">
+                <label>
+                    <input type="text" name="name">
+                    <div class="label__text">
+                        Ім'я
+                    </div>
+                </label>
+                <label>
+                    <input type="tel" name="tel">
+                    <div class="label__text">
+                        Номер телефона
+                    </div>
+                </label>
+                <label>
+                    <textarea name="message"></textarea>
+                    <div class="label__text">
+                        Детальніше про себе та фотосесію
+                    </div>
+                </label>
+                <button type="submit">Записатися</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <section >
+        <div class="container">
+            <div class="photo">
+                <img class="picture_1360" src="./img/11.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/12.jpg" >
+                    <img class="picture_660" src="./img/13.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/21.jpg" >
+                    <img class="picture_440" src="./img/22.jpg" >
+                    <img class="picture_440" src="./img/23.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/31.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/32.jpg" >
+                    <img class="picture_660" src="./img/33.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/41.jpg" >
+                    <img class="picture_440" src="./img/42.jpg" >
+                    <img class="picture_440" src="./img/43.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/31.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/32.jpg" >
+                    <img class="picture_660" src="./img/33.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/41.jpg" >
+                    <img class="picture_440" src="./img/42.jpg" >
+                    <img class="picture_440" src="./img/43.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/51.png" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/52.jpg" >
+                    <img class="picture_660" src="./img/53.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/61.jpg" >
+                    <img class="picture_440" src="./img/62.jpg" >
+                    <img class="picture_440" src="./img/63.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/71.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/72.jpg" >
+                    <img class="picture_660" src="./img/73.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/81.jpg" >
+                    <img class="picture_440" src="./img/82.jpg" >
+                    <img class="picture_440" src="./img/83.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/91.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/92.jpg" >
+                    <img class="picture_660" src="./img/93.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/101.jpg" >
+                    <img class="picture_440" src="./img/102.jpg" >
+                    <img class="picture_440" src="./img/103.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/111.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/112.jpg" >
+                    <img class="picture_660" src="./img/113.jpg" >
+                </div>
+
+                <div class="wrapper_440">
+                    <img class="picture_440" src="./img/121.jpg" >
+                    <img class="picture_440" src="./img/122.jpg" >
+                    <img class="picture_440" src="./img/123.jpg" >
+                </div>
+
+                <img class="picture_1360" src="./img/131.jpg" >
+
+                <div class="wrapper_660">
+                    <img class="picture_660" src="./img/132.jpg" >
+                    <img class="picture_660" src="./img/133.jpg" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video_wrapper">
+        <video  poster="./img/bg.png" id="player" width="100%" height="auto" autoplay muted loop>
+            <source src="../img/bg.mp4" type="video/mp4" >
+        </video>
+    </section>
+
+</main>
+<footer>
+
+    <h4 class="h4">Анастасія Кондратюк</h4>
+    <div class="social-media">
+        <img class="footer_img" src="./img/footer1.png" width="50">
+        <img class="footer_img" src="./img/footer2.png" width="50">
+        <img class="footer_img" src="./img/footer3.png" width="50">
+    </div>
+</footer>
+</body>
+</html>
